@@ -1,0 +1,243 @@
+body{
+  font-family: Inter, Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #121212; 
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: Inter, Roboto, sans-serif;
+  font-weight: 800;
+  color: #050505;
+}
+a{
+  text-decoration: none;
+}
+.btn{ 
+  border: none;
+  background-color: #121212;
+}
+.btn:hover{ 
+  background-color: #616161;
+}
+
+/* custom css */
+.navbar{
+  background:#f9f9f9;
+  font-family: Inter, Roboto, sans-serif;
+  
+}
+.navbar-brand{
+  font-size: x-large;
+  font-weight: bolder;
+}
+.nav-item{
+  font-size: large;
+}
+a.nav-link{
+  text-decoration: underline #fce62e 5px;
+}
+
+.navbar .navbar-toggler{
+  border: none;
+}
+
+/* feature section */
+#featureSection{ 
+  background-image: url('img/bg-image.png');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-color: #f9f9f9;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  min-height: auto;
+}
+  @media screen and (max-width: 768px) {
+    #featureSection{ 
+      padding-top: 100px;
+      padding-bottom: 100px;
+      min-height: auto;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #about{
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+
+  h1#tagline{
+    color: #121212;
+    font-size: 62px;
+  }
+    @media screen and (max-width: 992px) {
+      h1#tagline{
+        font-size: 44px;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      h1#tagline{
+        font-size: 29px;
+      }
+    }
+  
+#about p{
+  color: #050505;
+  font-size: 22px;
+}
+  @media screen and (max-width: 992px) {
+    #about p{
+      font-size: 18px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #about p{
+      font-size: 16px;
+    }
+  }
+#about span{
+  margin-right: 15px;
+}
+#about .fa-brands{ 
+  font-size: x-large;
+  color: #121212;
+}
+#about .fa-brands:hover{
+  color: #616161;
+}
+
+/* main */
+main{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #ffffff;
+}
+  @media screen and (max-width: 576px) {
+    main{
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 0px;
+    }
+  }
+main h1{
+    background: linear-gradient(0deg,#fce62e 40%,transparent 0);
+    display: inline;
+}
+main p{
+    font-size: 20px;
+}
+  @media screen and (max-width: 992px) {
+    main p{
+      font-size: 18px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    main p{
+      font-size: 16px;
+    }
+  }
+main a{
+  color: #ffffff;
+  text-decoration: none;
+}
+main a:hover{
+  color: #ffffff;
+}
+main img{
+  border-radius: 10px;
+  box-shadow: 4.7px 9.4px 9.4px hsl(0deg 0% 0% / 0.35);
+}
+
+/* the Whale Computer */
+#theWhaleComputer{
+  margin-bottom: 100px;
+}
+#theWhaleComputer-description{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+  @media screen and (max-width: 576px) {
+    #theWhaleComputer-description{
+      padding-bottom: 0px;
+    }
+  }
+
+/* the Whale Digest */
+#theWhaleDigest{
+  padding-top: 50px;
+}
+#theWhaleDigest-description{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+  @media screen and (max-width: 576px) {
+    #theWhaleDigest-description{
+      padding-bottom: 0px;
+    }
+  }
+
+
+/* footer */
+footer{
+  background-color: #121212;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* contact */
+footer #contact{
+  background-color: #ffffff;
+  color: #050505;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+footer #contact h2{
+  font-size: 62px;
+}
+  @media screen and (max-width: 992px) {
+    footer #contact h2{
+      font-size: 44px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    footer #contact h2{
+      font-size: 28px;
+    }
+  }
+
+#contact p{
+  font-size: 20px;
+}
+  @media screen and (max-width: 992px) {
+    #contact p{
+      font-size: 18px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #contact p{
+      font-size: 16px;
+    }
+  }
+
+/* footnote */
+footer #footnote{
+  font-family: Inter, Roboto, Sans-serif;
+  font-size: small;
+  padding-top: 15px;
+}
+#footnote #hosting{
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+  @media only screen and (max-width: 576px){
+    #footnote #hosting{
+      font-size: x-small;
+    }
+  }
+#footnote #hosting a{
+  color: #05ffff;
+  text-decoration: none;
+}
+#footnote #hosting a:hover{
+  color: #ffffff;
+}
