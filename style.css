@@ -120,8 +120,10 @@ main{
     }
   }
 main h1{
-    background: linear-gradient(0deg,#fce62e 40%,transparent 0);
-    display: inline;
+  font-family: 'smooch', cursive;
+  font-weight: initial;
+  background: linear-gradient(0deg,#fce62e 40%,transparent 0);
+  display: inline;
 }
 main p{
     font-size: 20px;
@@ -148,16 +150,16 @@ main img{
   box-shadow: 4.7px 9.4px 9.4px hsl(0deg 0% 0% / 0.35);
 }
 
-/* the Whale Computer */
-#theWhaleComputer{
+/* Butterbox */
+#butterbox{
   margin-bottom: 100px;
 }
-#theWhaleComputer-description{
+#butterbox-description{
   padding-top: 50px;
   padding-bottom: 50px;
 }
   @media screen and (max-width: 576px) {
-    #theWhaleComputer-description{
+    #butterbox-description{
       padding-bottom: 0px;
     }
   }
